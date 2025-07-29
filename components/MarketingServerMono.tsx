@@ -16,7 +16,7 @@ export default function MarketingServerMono(props) {
         <div className={styles.row}>
           <div className={styles.left}>
             <P>Quatre Sabots Capital</P>
-            <P style={{ marginTop: `1rem`, whiteSpace: 'pre-wrap', lineHeight: 1, fontSize: 20 }}>
+            <P style={{ marginTop: `1rem`, whiteSpace: 'pre-wrap', lineHeight: 1, fontSize: 17 }}>
               {`
 
   ██████╗ ███████╗ ██████╗
