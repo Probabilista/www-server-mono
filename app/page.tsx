@@ -11,13 +11,13 @@ import Script from 'next/script';
 import MarketingServerMono from '@components/MarketingServerMono';
 
 export async function generateMetadata({ params, searchParams }) {
-  const title = 'Server Mono';
+  const title = 'Quatre Sabots Capital';
   const description = Package.description;
-  const url = 'https://servermono.com';
-  const handle = '@internetxstudio';
+  const url = 'https://quatresabots.com';
+  const handle = '@qscapital';
 
   return {
-    metadataBase: new URL('https://servermono.com'),
+    metadataBase: new URL('https://quatresabots.com'),
     title,
     description,
     url,
