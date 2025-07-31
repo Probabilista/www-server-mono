@@ -1,5 +1,6 @@
 import '@root/global.scss';
 import '@root/animations.scss';
+import ActionItem from '@system/documents/ActionItem';
 
 import * as Constants from '@common/constants';
 import * as Utilities from '@common/utilities';
@@ -8,8 +9,9 @@ import DefaultLayout from '@components/DefaultLayout';
 import IntDev from '@system/svg/IntDev';
 import Package from '@root/package.json';
 import Script from 'next/script';
-import MarketingServerMono from '@components/MarketingServerMono';
-import ExamplePost from '@components/Post';
+import MarketingServerMonoTwo from '@components/MarketingServerMonoTwo';
+import { H3, P, Title, SubText } from '@system/typography';
+import styles from '@components/MarketingServerMono.module.scss';
 
 export async function generateMetadata({ params, searchParams }) {
   const title = 'Quatre Sabots Capital';
@@ -60,7 +62,7 @@ export async function generateMetadata({ params, searchParams }) {
 export default async function Page(props) {
   return (
     <DefaultLayout previewPixelSRC="https://intdev-global.s3.us-west-2.amazonaws.com/template-app-icon.png">
-      <MarketingServerMono />
+      <MarketingServerMonoTwo />
     </DefaultLayout>
   );
 }
