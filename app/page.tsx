@@ -9,7 +9,6 @@ import IntDev from '@system/svg/IntDev';
 import Package from '@root/package.json';
 import Script from 'next/script';
 import MarketingServerMono from '@components/MarketingServerMono';
-import ExamplePost from '@components/Post';
 
 export async function generateMetadata({ params, searchParams }) {
   const title = 'Quatre Sabots Capital';

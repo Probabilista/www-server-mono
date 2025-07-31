@@ -29,6 +29,11 @@ export default function MarketingServerMonoTwo(props) {
             </P>
           </div>
         </div>
+        <div className={styles.row}>
+          <div className={styles.content}>
+            <P>Articles & Recherche : </P>
+          </div>
+        </div>
 
         <div className={styles.row}>
           <div className={styles.content}>
